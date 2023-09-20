@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+nav {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding: 4rem 7rem;
+}
+
+a {
+    color: #C4C4CC;
+    text-decoration: none;
+    margin-right: 5.3rem;
+}
+
+a:focus {
+    color: #FFFFFF;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+h1 {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    margin-bottom: 1.6rem;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #E1E1E6;
+}
+
+button {
+    font-size: 1.4rem;
+    margin-top: calc(24px - 16px);
+    padding: 12px 32px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #FFF;
+    color: #02799D;
+    font-weight: 700;
+}
+
+.home{
+    background: url(./src/home.png) center/cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.universe {
+    background: url(./src/universe.png) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.exploration {
+    background: url(./src/exploration.png) no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.section {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin-top: 17.2rem;
+}
+
+.section-two {
+    display: grid;
+    padding: 0 53rem 0 10rem;
+    margin-top: 6.3rem;
+}
+
+.section-three {
+    display: grid;
+    padding: 0 53rem 0 10rem;
+    margin-top: 6.3rem;
+}
